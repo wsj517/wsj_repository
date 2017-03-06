@@ -12,6 +12,9 @@
 		09D383441DE58247005BB6E7 /* QkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D383361DE58247005BB6E7 /* QkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09D3834F1DE583C2005BB6E7 /* OpenApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D3834D1DE583C2005BB6E7 /* OpenApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09D383501DE583C2005BB6E7 /* OpenApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D3834E1DE583C2005BB6E7 /* OpenApp.m */; };
+		70EF6CDC1E6D29B900B13913 /* QkSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 70EF6CD91E6D29B900B13913 /* QkSDK.podspec */; };
+		70EF6CDD1E6D29B900B13913 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 70EF6CDA1E6D29B900B13913 /* LICENSE */; };
+		70EF6CDE1E6D29B900B13913 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 70EF6CDB1E6D29B900B13913 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,9 @@
 		09D383431DE58247005BB6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D3834D1DE583C2005BB6E7 /* OpenApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenApp.h; sourceTree = "<group>"; };
 		09D3834E1DE583C2005BB6E7 /* OpenApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenApp.m; sourceTree = "<group>"; };
+		70EF6CD91E6D29B900B13913 /* QkSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QkSDK.podspec; sourceTree = "<group>"; };
+		70EF6CDA1E6D29B900B13913 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		70EF6CDB1E6D29B900B13913 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		09D383291DE58247005BB6E7 = {
 			isa = PBXGroup;
 			children = (
+				70EF6CD91E6D29B900B13913 /* QkSDK.podspec */,
+				70EF6CDA1E6D29B900B13913 /* LICENSE */,
+				70EF6CDB1E6D29B900B13913 /* README.md */,
 				09D383351DE58247005BB6E7 /* QkSDK */,
 				09D383401DE58247005BB6E7 /* QkSDKTests */,
 				09D383341DE58247005BB6E7 /* Products */,
@@ -185,6 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF6CDD1E6D29B900B13913 /* LICENSE in Resources */,
+				70EF6CDC1E6D29B900B13913 /* QkSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF6CDE1E6D29B900B13913 /* README.md in Sources */,
 				09D383501DE583C2005BB6E7 /* OpenApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +410,7 @@
 				09D383491DE58247005BB6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09D3834A1DE58247005BB6E7 /* Build configuration list for PBXNativeTarget "QkSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +419,7 @@
 				09D3834C1DE58247005BB6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
