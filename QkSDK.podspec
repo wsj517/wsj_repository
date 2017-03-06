@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'QkSDK/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'F_Cocoapods' => ['QkSDK/Assets/*.png']
+  #   'QkSDK' => ['QkSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
